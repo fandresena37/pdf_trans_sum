@@ -42,16 +42,15 @@ def summiraze_texts(texts, target_language:str,length: str, style: str):
 
 
     length_map = {
-        "Court (~100 mots)": "environ 100 mots",
-        "Moyen (~250 mots)": "environ 250 mots",
-        "Long (~500 mots)": "environ 500 mots",
+        "Short (~100 words))": "environ 100 mots",
+        "Medium (~250 words)": "environ 250 mots",
+        "Long (~500 words)": "environ 500 mots",
     }
     length_instruction = length_map.get(length, "environ 250 mots")
 
     style_map = {
-        "Paragraphe": "sous forme d'un ou plusieurs paragraphes fluides et continus",
-        "Points clés": ("sous forme de liste à puces présentant les points clés"),
-        "Résumé exécutif": (
+        "Paragraph": "sous forme d'un ou plusieurs paragraphes fluides et continus",
+        "Executive summary": (
             "sous forme d'un résumé exécutif structuré, avec une introduction, "
             "les points principaux, et une conclusion ou des recommandations"
         ),
