@@ -28,7 +28,7 @@ GEMINI_API_KEY=your_gemini_api_key
 Run the backend server:
 
 ```bash
-uvicorn main:app --reload
+uvicorn app:app --reload
 ```
 
 ### Frontend Setup
