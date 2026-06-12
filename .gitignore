@@ -224,6 +224,7 @@ front/pnpm-debug.log*
 front/.DS_Store
 
 back/__pycache__/
+back/src/__pycache__/
 back/*.pyc
 back/*.pyo
 back/*.pyd
