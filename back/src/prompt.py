@@ -42,7 +42,7 @@ def summiraze_texts(texts, target_language:str,length: str, style: str):
 
 
     length_map = {
-        "Short (~100 words))": "environ 100 mots",
+        "Short (~100 words)": "environ 100 mots",
         "Medium (~250 words)": "environ 250 mots",
         "Long (~500 words)": "environ 500 mots",
     }
