@@ -213,6 +213,7 @@ front/dist/
 front/.vite/
 front/.next/
 front/.cache/
+front/.env
 
 # logs
 front/npm-debug.log*
@@ -232,6 +233,7 @@ back/*.pyd
 back/.venv/
 back/venv/
 back/env/
+back/src/.env
 
 # logs
 back/*.log
