@@ -200,3 +200,51 @@ Thumbs.db
 
 # FastAPI / uvicorn cache
 *.pid
+
+**/.env
+**/.env.local
+**/.env.development
+**/.env.production
+**/.env.test
+
+front/node_modules/
+front/build/
+front/dist/
+front/.vite/
+front/.next/
+front/.cache/
+
+# logs
+front/npm-debug.log*
+front/yarn-debug.log*
+front/yarn-error.log*
+front/pnpm-debug.log*
+
+# OS files
+front/.DS_Store
+
+back/__pycache__/
+back/*.pyc
+back/*.pyo
+back/*.pyd
+
+back/.venv/
+back/venv/
+back/env/
+
+# logs
+back/*.log
+
+# pytest / coverage
+back/.pytest_cache/
+back/.coverage
+back/htmlcov/
+
+# IDE
+back/.vscode/
+back/.idea/
+
+.DS_Store
+*.log
+*.sqlite3
+*.db
